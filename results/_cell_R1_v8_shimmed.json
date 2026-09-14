@@ -1,0 +1,47 @@
+{
+  "case": "shimmed",
+  "ok": false,
+  "runtime": {
+    "exe": "<ELECTRON_HOST_EXE>",
+    "node": "v22.21.1",
+    "bundledUndici": "6.22.0",
+    "platform": "win32"
+  },
+  "externalUndici": {
+    "version": "8.10.2",
+    "resolvedPath": "<ROOT>\\vendor\\v8\\node_modules\\undici\\index.js"
+  },
+  "contract": {
+    "agentOnRequestStart": "undefined",
+    "agentDispatch": "function",
+    "agentCtor": "Agent"
+  },
+  "http": {
+    "status": null,
+    "tcpConnectionsOpened": 0,
+    "elapsedMs": 5.79
+  },
+  "error": {
+    "name": "TypeError",
+    "code": null,
+    "message": "fetch failed",
+    "cause": {
+      "name": "TypeError",
+      "code": null,
+      "message": "Cannot read properties of null (reading 'name')"
+    },
+    "frames": [
+      "at node:internal/deps/undici/undici:14900:13",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+      "at async main (<ROOT>\\case-runner.cjs:288:17)"
+    ]
+  },
+  "fatal": null,
+  "symbols": {
+    "before": [],
+    "after": [
+      "Symbol(undici.globalDispatcher.2)",
+      "Symbol(undici.globalDispatcher.1)"
+    ]
+  }
+}

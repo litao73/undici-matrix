@@ -1,0 +1,26 @@
+{
+  "case": "baseline",
+  "ok": true,
+  "runtime": {
+    "exe": "<ROOT>\\runtimes\\node-v24.21.0-win-x64\\node.exe",
+    "node": "v24.21.0",
+    "bundledUndici": "7.29.1",
+    "platform": "win32"
+  },
+  "externalUndici": null,
+  "contract": null,
+  "http": {
+    "status": 200,
+    "tcpConnectionsOpened": 1,
+    "elapsedMs": 40.3
+  },
+  "error": null,
+  "fatal": null,
+  "symbols": {
+    "before": [],
+    "after": [
+      "Symbol(undici.globalDispatcher.2)",
+      "Symbol(undici.globalDispatcher.1)"
+    ]
+  }
+}

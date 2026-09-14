@@ -1,0 +1,33 @@
+{
+  "case": "set-global",
+  "ok": true,
+  "runtime": {
+    "exe": "<SYSTEM_NODE_EXE>",
+    "node": "v22.22.0",
+    "bundledUndici": "6.23.0",
+    "platform": "win32"
+  },
+  "externalUndici": {
+    "version": "8.10.2",
+    "resolvedPath": "<ROOT>\\vendor\\v8\\node_modules\\undici\\index.js"
+  },
+  "contract": {
+    "agentOnRequestStart": "undefined",
+    "agentDispatch": "function",
+    "agentCtor": "Agent"
+  },
+  "http": {
+    "status": 200,
+    "tcpConnectionsOpened": 1,
+    "elapsedMs": 22.06
+  },
+  "error": null,
+  "fatal": null,
+  "symbols": {
+    "before": [],
+    "after": [
+      "Symbol(undici.globalDispatcher.2)",
+      "Symbol(undici.globalDispatcher.1)"
+    ]
+  }
+}

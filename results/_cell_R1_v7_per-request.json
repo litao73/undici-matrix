@@ -1,0 +1,33 @@
+{
+  "case": "per-request",
+  "ok": true,
+  "runtime": {
+    "exe": "<ELECTRON_HOST_EXE>",
+    "node": "v22.21.1",
+    "bundledUndici": "6.22.0",
+    "platform": "win32"
+  },
+  "externalUndici": {
+    "version": "7.29.1",
+    "resolvedPath": "<ROOT>\\vendor\\v7\\node_modules\\undici\\index.js"
+  },
+  "contract": {
+    "agentOnRequestStart": "undefined",
+    "agentDispatch": "function",
+    "agentCtor": "Agent"
+  },
+  "http": {
+    "status": 200,
+    "tcpConnectionsOpened": 1,
+    "elapsedMs": 18.47
+  },
+  "error": null,
+  "fatal": null,
+  "symbols": {
+    "before": [],
+    "after": [
+      "Symbol(undici.globalDispatcher.2)",
+      "Symbol(undici.globalDispatcher.1)"
+    ]
+  }
+}

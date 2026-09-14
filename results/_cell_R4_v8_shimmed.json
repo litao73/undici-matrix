@@ -1,0 +1,43 @@
+{
+  "case": "shimmed",
+  "ok": false,
+  "runtime": {
+    "exe": "<ROOT>\\runtimes\\node-v24.21.0-win-x64\\node.exe",
+    "node": "v24.21.0",
+    "bundledUndici": "7.29.1",
+    "platform": "win32"
+  },
+  "externalUndici": {
+    "version": "8.10.2",
+    "resolvedPath": "<ROOT>\\vendor\\v8\\node_modules\\undici\\index.js"
+  },
+  "contract": {
+    "agentOnRequestStart": "undefined",
+    "agentDispatch": "function",
+    "agentCtor": "Agent"
+  },
+  "http": {
+    "status": null,
+    "tcpConnectionsOpened": 0,
+    "elapsedMs": 5.47
+  },
+  "error": {
+    "name": "TypeError",
+    "code": null,
+    "message": "fetch failed",
+    "cause": {
+      "name": "TypeError",
+      "code": null,
+      "message": "Cannot read properties of null (reading 'name')"
+    },
+    "frames": []
+  },
+  "fatal": null,
+  "symbols": {
+    "before": [],
+    "after": [
+      "Symbol(undici.globalDispatcher.2)",
+      "Symbol(undici.globalDispatcher.1)"
+    ]
+  }
+}

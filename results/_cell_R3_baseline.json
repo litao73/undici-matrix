@@ -1,0 +1,25 @@
+{
+  "case": "baseline",
+  "ok": true,
+  "runtime": {
+    "exe": "<SYSTEM_NODE_EXE>",
+    "node": "v22.22.0",
+    "bundledUndici": "6.23.0",
+    "platform": "win32"
+  },
+  "externalUndici": null,
+  "contract": null,
+  "http": {
+    "status": 200,
+    "tcpConnectionsOpened": 1,
+    "elapsedMs": 41.83
+  },
+  "error": null,
+  "fatal": null,
+  "symbols": {
+    "before": [],
+    "after": [
+      "Symbol(undici.globalDispatcher.1)"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "case": "baseline",
+  "ok": true,
+  "runtime": {
+    "exe": "<ELECTRON_HOST_EXE>",
+    "node": "v22.21.1",
+    "bundledUndici": "6.22.0",
+    "platform": "win32"
+  },
+  "externalUndici": null,
+  "contract": null,
+  "http": {
+    "status": 200,
+    "tcpConnectionsOpened": 1,
+    "elapsedMs": 48.62
+  },
+  "error": null,
+  "fatal": null,
+  "symbols": {
+    "before": [],
+    "after": [
+      "Symbol(undici.globalDispatcher.1)"
+    ]
+  }
+}

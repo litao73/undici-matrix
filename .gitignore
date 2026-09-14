@@ -1,0 +1,22 @@
+# ===== dependencies the harness installs at run time =====
+node_modules/
+vendor/
+vendor-*/
+
+# ===== Node.js runtime downloads (approx. 100 MB, fetched on demand) =====
+runtimes/
+
+# ===== harness output: regenerate with `node run-matrix.cjs` =====
+results/*.csv
+results/*.md
+
+# ===== manuscript-analysis scripts and scratch output =====
+# Not part of the experiment. Several of these embed draft prose, author
+# notes and machine-specific paths, so they are excluded from the public
+# repository on purpose rather than by accident.
+paper-tools/
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+*.swp
