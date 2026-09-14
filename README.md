@@ -3,9 +3,10 @@
 Artifact accompanying the manuscript *"Silent Network Failures in Hybrid Runtimes:
 Diagnosing Dependency Resolution Escape via In-Runtime Differential Probing"*.
 
-This package produces **Table 2** (version matrix) and **Table A** (full cell
-results) of the manuscript from a single command, on the machine where the
-failure originally occurred.
+This package produces **Tables 3 to 6** of the manuscript from a single command:
+the version matrix (Table 3), the complete 65-cell accounting (Table 4), the
+contract-strictness probe (Table 5) and the intervention outcome (Table 6).
+The underlying per-cell records in `results/` are the raw data behind all four.
 
 ---
 
@@ -198,8 +199,8 @@ Written to `results/`:
 |---|---|
 | `results.json` | raw per-cell records, machine-readable |
 | `results.csv` | flat table for statistical tooling |
-| `table3-condensed.md` | **Tables 3–5** — paste into §6.6–6.7 |
-| `table-full.md` | **Table A** — full cell results, appendix |
+| `table3-condensed.md` | **Tables 3, 5, 6** — paste into §6.6–6.7 |
+| `table-full.md` | full cell results; the basis for **Table 4** (65-cell accounting) |
 | `_cell_*.json` | individual cell records, kept for audit |
 
 `table3-condensed.md` emits everything needed for §6.6–6.7 of the manuscript:
