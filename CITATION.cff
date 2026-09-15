@@ -24,7 +24,7 @@ license: MIT
 repository-code: "https://github.com/litao73/undici-matrix"
 url: "https://github.com/litao73/undici-matrix"
 
-version: 1.0.0
+version: 1.0.1
 date-released: "2026-09-15"
 
 keywords:
@@ -43,7 +43,8 @@ identifiers:
 
 # Two DOIs exist for this deposit:
 #   concept DOI  10.5281/zenodo.22764748  -> newest version (used above, never goes stale)
-#   version DOI  10.5281/zenodo.22764749  -> v1.0.0 only
+#   version DOI  10.5281/zenodo.22764991  -> v1.0.1, cite this one in the manuscript
+#   version DOI  10.5281/zenodo.22764749  -> v1.0.0, superseded; do not cite
 # In a PUBLICATION cite the VERSION doi of the release you actually ran:
 # it is pinned to exact code, so the artefact stays reproducible.
 
