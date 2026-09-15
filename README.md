@@ -1,6 +1,6 @@
 # Reproduction Package — undici Version-Matrix Experiment
 
-[![DOI](https://zenodo.org/badge/DOI/@@ZENODO_DOI@@.svg)](https://doi.org/@@ZENODO_DOI@@)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22764748.svg)](https://doi.org/10.5281/zenodo.22764748)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Artifact accompanying the manuscript *"Silent Network Failures in Hybrid Runtimes:

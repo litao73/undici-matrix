@@ -14,8 +14,8 @@ abstract: >-
   really sent. It reproduces Tables 3, 4, 5 and 6 of the manuscript.
 
 authors:
-  - family-names: "Tao"
-    given-names: "Li"
+  - family-names: "Li"
+    given-names: "Tao"
     affiliation: "Hohhot Science and Technology Bureau Comprehensive Support Center, Hohhot, Inner Mongolia, China"
     email: "litao73@gmail.com"
 
@@ -36,24 +36,23 @@ keywords:
   - replication package
   - software supply chain
 
-# ---------------------------------------------------------------------------
-# AFTER the first GitHub release is archived by Zenodo, add the version DOI here.
-#
-#   identifiers:
-#     - type: doi
-#       value: "10.5281/zenodo.XXXXXXX"
-#       description: "Zenodo archive of this exact version."
-#
-# Cite the VERSION doi (pinned to the code you ran), not the concept doi
-# (which always resolves to the newest release).
-# ---------------------------------------------------------------------------
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22764748"
+    description: "Zenodo concept DOI: always resolves to the newest archived version."
+
+# Two DOIs exist for this deposit:
+#   concept DOI  10.5281/zenodo.22764748  -> newest version (used above, never goes stale)
+#   version DOI  10.5281/zenodo.22764749  -> v1.0.0 only
+# In a PUBLICATION cite the VERSION doi of the release you actually ran:
+# it is pinned to exact code, so the artefact stays reproducible.
 
 preferred-citation:
   type: manuscript
   title: "Silent Network Failures in Hybrid Runtimes: Diagnosing Dependency Resolution Escape via In-Runtime Differential Probing"
   authors:
-    - family-names: "Tao"
-      given-names: "Li"
+    - family-names: "Li"
+      given-names: "Tao"
       affiliation: "Hohhot Science and Technology Bureau Comprehensive Support Center, Hohhot, Inner Mongolia, China"
   year: 2026
   status: submitted
