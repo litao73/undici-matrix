@@ -16,6 +16,7 @@ abstract: >-
 authors:
   - family-names: "Li"
     given-names: "Tao"
+    orcid: "https://orcid.org/0009-0000-2481-8577"
     affiliation: "Hohhot Science and Technology Bureau Comprehensive Support Center, Hohhot, Inner Mongolia, China"
     email: "litao73@gmail.com"
 
@@ -54,6 +55,7 @@ preferred-citation:
   authors:
     - family-names: "Li"
       given-names: "Tao"
+      orcid: "https://orcid.org/0009-0000-2481-8577"
       affiliation: "Hohhot Science and Technology Bureau Comprehensive Support Center, Hohhot, Inner Mongolia, China"
   year: 2026
   status: submitted
