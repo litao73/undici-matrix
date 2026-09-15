@@ -1,5 +1,8 @@
 # Reproduction Package — undici Version-Matrix Experiment
 
+[![DOI](https://zenodo.org/badge/DOI/@@ZENODO_DOI@@.svg)](https://doi.org/@@ZENODO_DOI@@)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Artifact accompanying the manuscript *"Silent Network Failures in Hybrid Runtimes:
 Diagnosing Dependency Resolution Escape via In-Runtime Differential Probing"*.
 
@@ -22,7 +25,7 @@ attempted**.
 
 | Variable | Levels |
 |---|---|
-| Runtime (bundled undici) | Electron host 6.22.0 · Node 22.22.2 / 6.24.1 · Node 22.22.0 / 6.23.0 · **Node 24.21.0 / 7.29.1** — see §3 for how each is enabled |
+| Runtime (bundled undici) | Electron host 6.22.0 · Node 22.22.2 / 6.24.1 · Node 22.22.0 / 6.23.0 · **Node 24.21.0 / 7.29.1** — see §4 for how each is enabled |
 | External undici version | 6.x · 7.x · 8.x (pinned, isolated) + `8.1.0` (wild-resolved from `$HOME`) |
 | Dispatcher strategy | none (baseline) · per-request · `setGlobalDispatcher` · paired same-copy `fetch` · shimmed (intervention) · contract-strictness probe |
 
@@ -112,7 +115,7 @@ Adaptation is therefore refuted as a remedy.
 
 ---
 
-## 3. Running it
+## 4. Running it
 
 ```bat
 run-matrix.bat
@@ -191,7 +194,7 @@ holds, so **do not drop R4 without also revising §6.6 and §8.**
 
 ---
 
-## 4. Outputs
+## 5. Outputs
 
 Written to `results/`:
 
@@ -206,14 +209,14 @@ Written to `results/`:
 `table3-condensed.md` emits everything needed for §6.6–6.7 of the manuscript:
 
 - **Table 3** — the version matrix (runtime × external version, per-request case)
-- **Table 3** — contract strictness, measured behaviourally
-- **Table 4** — causal intervention outcome
+- **Table 5** — contract strictness, measured behaviourally
+- **Table 6** — causal intervention outcome
 - wild-resolution reproduction of the production escape
 - Agent-shape probe, with the note that Agent shape is *not* the discriminator
 
 ---
 
-## 5. Threats to validity, and what this package does about them
+## 6. Threats to validity, and what this package does about them
 
 | Threat | Mitigation in this design |
 |---|---|
@@ -256,13 +259,37 @@ before installing. **If you adapt this harness, keep that guard.**
 
 ---
 
-## 6. Files
+## 8. Files
 
 ```
 undici-matrix/
 ├── run-matrix.cjs     # orchestrator: prepares deps, runs cells, builds tables
 ├── case-runner.cjs    # executes one cell in an isolated process
 ├── run-matrix.bat     # one-click launcher
+├── CITATION.cff       # machine-readable citation metadata (read by GitHub/Zenodo)
+├── LICENSE            # MIT
 ├── vendor/v{6,7,8}/   # pinned undici copies (created on first run)
 └── results/           # generated
 ```
+
+---
+
+## 9. Citing this package
+
+Machine-readable metadata lives in [`CITATION.cff`](CITATION.cff); GitHub and
+Zenodo both read it. For a publication, cite the **version DOI** rather than the
+repository URL — a URL can move, and a version DOI is pinned to the exact code
+you ran.
+
+If you cite this before a DOI exists, cite the archived release:
+
+> Li Tao (2026). *Reproduction package for the undici version-matrix
+> experiment* (v1.0.0). https://github.com/@@GITHUB_ACCOUNT@@/undici-matrix
+
+---
+
+## 10. Licence
+
+MIT — see [`LICENSE`](LICENSE). The vendored `undici` copies under `vendor/`
+are fetched from npm at first run and carry their own licence (MIT); they are
+not redistributed here.

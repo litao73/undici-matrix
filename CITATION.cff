@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+
+title: "Reproduction package for the undici version-matrix experiment"
+abstract: >-
+  Reproduction package accompanying the manuscript "Silent Network Failures in
+  Hybrid Runtimes: Diagnosing Dependency Resolution Escape via In-Runtime
+  Differential Probing". The package runs a 65-cell controlled experiment that
+  crosses four JavaScript runtimes (two bundled undici lineages) with four
+  external undici versions under six dispatcher strategies, and counts the TCP
+  connections each cell actually opens in order to distinguish requests that
+  were rejected by a client-side contract assertion from requests that were
+  really sent. It reproduces Tables 3, 4, 5 and 6 of the manuscript.
+
+authors:
+  - family-names: "Tao"
+    given-names: "Li"
+    affiliation: "Hohhot Science and Technology Bureau Comprehensive Support Center, Hohhot, Inner Mongolia, China"
+    email: "litao73@gmail.com"
+
+license: MIT
+
+repository-code: "https://github.com/@@GITHUB_ACCOUNT@@/undici-matrix"
+url: "https://github.com/@@GITHUB_ACCOUNT@@/undici-matrix"
+
+version: 1.0.0
+date-released: "2026-09-15"
+
+keywords:
+  - undici
+  - Node.js
+  - Electron
+  - dependency resolution
+  - HTTP client
+  - replication package
+  - software supply chain
+
+# ---------------------------------------------------------------------------
+# AFTER the first GitHub release is archived by Zenodo, add the version DOI
+# here and replace the two @@GITHUB_ACCOUNT@@ placeholders above.
+#
+#   identifiers:
+#     - type: doi
+#       value: "10.5281/zenodo.XXXXXXX"
+#       description: "Zenodo archive of this exact version."
+#
+# Cite the VERSION doi (pinned to the code you ran), not the concept doi
+# (which always resolves to the newest release).
+# ---------------------------------------------------------------------------
+
+preferred-citation:
+  type: manuscript
+  title: "Silent Network Failures in Hybrid Runtimes: Diagnosing Dependency Resolution Escape via In-Runtime Differential Probing"
+  authors:
+    - family-names: "Tao"
+      given-names: "Li"
+      affiliation: "Hohhot Science and Technology Bureau Comprehensive Support Center, Hohhot, Inner Mongolia, China"
+  year: 2026
+  status: submitted
