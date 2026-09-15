@@ -284,7 +284,7 @@ you ran.
 If you cite this before a DOI exists, cite the archived release:
 
 > Li Tao (2026). *Reproduction package for the undici version-matrix
-> experiment* (v1.0.0). https://github.com/@@GITHUB_ACCOUNT@@/undici-matrix
+> experiment* (v1.0.0). https://github.com/litao73/undici-matrix
 
 ---
 

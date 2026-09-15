@@ -21,8 +21,8 @@ authors:
 
 license: MIT
 
-repository-code: "https://github.com/@@GITHUB_ACCOUNT@@/undici-matrix"
-url: "https://github.com/@@GITHUB_ACCOUNT@@/undici-matrix"
+repository-code: "https://github.com/litao73/undici-matrix"
+url: "https://github.com/litao73/undici-matrix"
 
 version: 1.0.0
 date-released: "2026-09-15"
@@ -37,8 +37,7 @@ keywords:
   - software supply chain
 
 # ---------------------------------------------------------------------------
-# AFTER the first GitHub release is archived by Zenodo, add the version DOI
-# here and replace the two @@GITHUB_ACCOUNT@@ placeholders above.
+# AFTER the first GitHub release is archived by Zenodo, add the version DOI here.
 #
 #   identifiers:
 #     - type: doi
